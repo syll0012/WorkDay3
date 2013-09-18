@@ -8,7 +8,7 @@ Public Class Form1
         num1 = CDbl(txtFirstNum.Text)
         num2 = CDbl(txtSecondNum.Text)
         'Take the input and immediately convert it into a double'
-
+        'For comparing numbers'
         If (num1 > num2) Then
             largerNum = num1
             txtResult.Text = "The larger number is " & num1
